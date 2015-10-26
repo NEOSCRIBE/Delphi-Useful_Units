@@ -104,7 +104,7 @@ type
   public
     constructor Create(const aDisableAlerts: boolean = true;
       const aVisible: boolean = false);
-    destructor Destroy; overload;
+    destructor Destroy; override;
     procedure AddWorkBook;
     procedure AddWorkSheet;
     procedure ChangeWorkSheetName(const aIndex: integer; const aName: string;
